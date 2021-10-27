@@ -47,7 +47,7 @@ p {
 .page__intro{
 	background: linear-gradient(to top, black, transparent),
 	radial-gradient(circle farthest-corner at 190px 180px, rgba(1,1,1,0.1) 0%, #000000),
-	url("../image/house.png") center no-repeat; background-size: cover;
+	url("house.png") center no-repeat; background-size: cover;
 }
 
 
@@ -70,8 +70,8 @@ p {
 	align-items: center;
 
 	background: radial-gradient(circle at center, rgba(2,9,22,0) 0%, rgba(1,7,16,0.31) 31%, #01050d 100%),
-	url("../image/Rectangle 5.png") center no-repeat,
-	url("../image/background_2.png") center no-repeat; background-size: cover; opacity: 1;
+	url("Rectangle 5.png") center no-repeat,
+	url("background_2.png") center no-repeat; background-size: cover; opacity: 1;
 }
 
 .page__contacts {
@@ -83,7 +83,7 @@ p {
 	align-items: center;
 
 	background: linear-gradient(180deg, rgba(0,0,0,1) 30%, rgba(0,0,0,0.8) 36%, rgba(15,15,30,0.5) 50%, rgba(0,0,0,0.7) 66%, rgba(0,0,0,1) 72%),
-	url("../image/texas.png") center no-repeat,
+	url("texas.png") center no-repeat,
 	#000; background-size: contain;
 }
 
@@ -304,7 +304,7 @@ p {
 	border-radius: 40px;
 
 	background: linear-gradient(to top, rgba(0,0,0,0.4)100%, transparent),
-	url("../image/boston.png") center no-repeat; background-size: cover;
+	url("boston.png") center no-repeat; background-size: cover;
 
 	
 
@@ -312,7 +312,7 @@ p {
 
 .project__boston:hover {
 	background: linear-gradient(to top, rgba(0,0,0,0.3)100%, transparent),
-	url("../image/boston.png") center no-repeat; background-size: cover;
+	url("boston.png") center no-repeat; background-size: cover;
 
 	box-shadow: 0px 3px 10px 1px rgba(32, 32, 36, 1);
 }
@@ -390,12 +390,12 @@ p {
 	margin-left: 60px;
 
 	background: linear-gradient(to top, rgba(0,0,0,0.6)100%, transparent),
-	url("../image/miami.png") center no-repeat; background-size: cover;
+	url("miami.png") center no-repeat; background-size: cover;
 }
 
 .project__miami:hover {
 	background: linear-gradient(to top, rgba(0,0,0,0.4)100%, transparent),
-	url("../image/miami.png") center no-repeat; background-size: cover;
+	url("miami.png") center no-repeat; background-size: cover;
 
 	box-shadow: 0px 3px 10px 1px rgba(32, 32, 36, 1);
 }
@@ -417,12 +417,12 @@ p {
 
 .project__sietl {
 	background: linear-gradient(to top, rgba(0,0,0,0.6)100%, transparent),
-	url("../image/sietl.png") center no-repeat; background-size: cover;
+	url("sietl.png") center no-repeat; background-size: cover;
 }
 
 .project__sietl:hover {
 	background: linear-gradient(to top, rgba(0,0,0,0.4)100%, transparent),
-	url("../image/sietl.png") center no-repeat; background-size: cover;
+	url("sietl.png") center no-repeat; background-size: cover;
 
 	box-shadow: 0px 3px 10px 1px rgba(32, 32, 36, 1);
 }
@@ -430,12 +430,12 @@ p {
 
 .project__orlando {
 	background: linear-gradient(to top, rgba(0,0,0,0.6)100%, transparent),
-	url("../image/orlando.png") center no-repeat; background-size: cover;
+	url("orlando.png") center no-repeat; background-size: cover;
 }
 
 .project__orlando:hover {
 	background: linear-gradient(to top, rgba(0,0,0,0.4)100%, transparent),
-	url("../image/orlando.png") center no-repeat; background-size: cover;
+	url("orlando.png") center no-repeat; background-size: cover;
 
 	box-shadow: 0px 3px 10px 1px rgba(32, 32, 36, 1);
 }
@@ -493,15 +493,15 @@ p {
 }
 
 .pin {
-	background: url("../image/emblems/location-pin.png") no-repeat;
+	background: url("location-pin.png") no-repeat;
 }
 
 .tell {
-	background: url("../image/emblems/call.png") no-repeat;
+	background: url("call.png") no-repeat;
 }
 
 .mail {
-	background: url("../image/emblems/email.png") no-repeat;
+	background: url("email.png") no-repeat;
 }
 
 .contact_link:hover {
