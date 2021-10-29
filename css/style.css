@@ -71,7 +71,7 @@ p {
 	align-items: center;
 	padding: 0 10px 0 25px;
 
-	background: radial-gradient(circle at center, rgba(2,9,22,0) 0%, rgba(1,7,16,0.31) 31%, #01050d 100%),
+	background: radial-gradient(circle at center, rgba(2,9,22,0) 0%, rgba(1,7,16,0.31) 31%, #01050d 70%),
 	url("../image/Rectangle 5.png") center no-repeat,
 	url("../image/background_2.png") center no-repeat; background-size: cover; opacity: 1;
 }
