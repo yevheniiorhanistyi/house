@@ -69,6 +69,7 @@ p {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
+	padding: 0 10px 0 25px;
 
 	background: radial-gradient(circle at center, rgba(2,9,22,0) 0%, rgba(1,7,16,0.31) 31%, #01050d 100%),
 	url("../image/Rectangle 5.png") center no-repeat,
