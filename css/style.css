@@ -54,6 +54,7 @@ p {
 .page__about {
 	height: 100%;
 	max-height: 200vh;
+	min-height: 1070px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -211,28 +212,50 @@ p {
 
 /*_____ btn ____*/
 
+.button {
+	display: block;
+	max-width: 220px;
+	max-height: 40px;
+	background-color: #d8ad47;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border: solid 1px #DEAB31;
+	overflow: hidden;
+	transition: .3s linear;
+	align-items: center;
+	text-align: center;
+	padding: 0;
+}
+
+
 .btn {
+	width: 100%;
+	display: block; 
 	font-family: "Montserrat Alternates", sans-serif;
 	font-size: 1rem;
 	font-weight: 400;
 	color: #000;
-
+	outline: 0;
 	text-decoration: none;
 
-	background-color: #d8ad47;
-	border-radius: 20px;
-
-	padding: 8px 25px;
+	padding: 5px 20px;
+	position: relative;
 	
-	transition: filter .3s linear;
 }
 
 
-.btn:hover {
+.button:hover {
 	filter: drop-shadow(0 0 5px #d8ad47);
+	background-color: #EDC056;
 }
 
-.btn:focus {
+.button:active {
+	border: solid 1px #C8A040;
+	background-color: #AD8D40;
+}
+
+.button:focus {
 	outline: none !important;
     border-color: #d8ad47;
     box-shadow: 0 0 10px #d8ad47;
@@ -352,23 +375,31 @@ p {
 	margin-left: 8px;
 }
 
-.btn__project {
-	display: inline-block;
+.button_project {
 	margin-left: 35px;
 	margin-top: 15px;
-
+	max-width: 120px;
+	max-height: 40px;
 	border: solid 1px #fff;
 	background-color: transparent;
-	color: #fff;
-
 	transition: background .2s linear;
-
 }
 
-.btn__project:hover {
+.btn__project {
+	display: block;
+	color: #fff;
+}
+
+.button_project:hover {
 	border: solid 1px #d8ad47;
 	background-color: #d8ad47;
 	color: #000;
+}
+
+.button_project:active {
+
+	border: solid 1px #C8A040;
+	background-color: #AD8D40;
 }
 
 .projects {
@@ -486,11 +517,13 @@ p {
 	display: inline-block;
 	text-decoration: none;
 	color: #fff;
-	margin-bottom: 28px;
+	margin: 14px 0;
 	padding: 5px 10px 5px 44px;
 	opacity: .8;
 	transition: opacity .2s linear;
 }
+
+
 
 .pin {
 	background: url("../image/emblems/location-pin.png") no-repeat;
@@ -564,13 +597,13 @@ input:focus {
     box-shadow: 0 0 10px #d8ad47;
 }
 
-
-.btn_form {
+.button_form {
 	position: absolute;
 	left: 50%;
 	bottom: 2%;
 	margin-left: -50px;
 }
+
 
 
 /*_____ footer ____*/
@@ -725,6 +758,10 @@ input:focus {
 }
 
 @media(max-width: 722px) {
+
+	.content__intro {
+		left: 1%;
+	}
 	.header__title{
 		font-size: 1.6rem;
 		margin: 58px 15px;
@@ -737,7 +774,7 @@ input:focus {
 
 	.menu_link {
 		display: block;
-		margin: 25px 20px;
+		margin: 25px 10px;
 	}
 	.project__boston {
 		max-width: 100%;
@@ -785,16 +822,16 @@ input:focus {
 	}
 
 	.page__contacts {
-		max-height: 800px;
+		max-height: 840px;
 	}
 
 	.content__title {
-		margin-top: 10px;
+		margin-top: 20px;
 	}
 
 	.content_contacts {
 		margin-left: 0;
-		max-height: 440px;
+		max-height: 460px;
 	}
 	.location {
 		display: block;
@@ -808,6 +845,12 @@ input:focus {
 		display: block;
 		margin: 20px auto;
 	}
+
+	.contact_link {
+		display: block;
+		margin: 30px 0;
+	}
+
 	.project__title_boston {
 		font-size: 2rem;
 		margin-bottom: 10px;
