@@ -667,7 +667,7 @@ input:focus {
 @media(max-width: 1180px) {
 	.page__projects {
 		display: block;
-		max-height: 1706px;
+		max-height: 1720px;
 	}
 	.content__projects {
 		width: 100%;
