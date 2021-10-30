@@ -814,7 +814,7 @@ input:focus {
 		position: absolute;
 		top: 0;
 		left: 50%;
-		margin-left: -111px;
+		margin-left: -156px;
 		transform: translateX(100%);
 
 
@@ -864,7 +864,7 @@ input:focus {
 
 .menu-btn span {
 	width: 30px;
-	height: 2px;
+	height: 3px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -874,10 +874,10 @@ input:focus {
 }
 
 .menu-btn span:nth-of-type(2) {
-	top: calc(50% - 5px);
+	top: calc(50% - 6px);
 }
 .menu-btn span:nth-of-type(3) {
-	top: calc(50% + 5px);
+	top: calc(50% + 6px);
 }
 
 /* on click change burger icon */
@@ -913,7 +913,7 @@ input:focus {
 .menu_items {
 	position: absolute;
 	top: 145px;
-	left: 44%;
+	left: 38%;
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0 auto;
@@ -925,6 +925,10 @@ input:focus {
 
 
 @media(max-width: 664px) {
+
+	.header__title.active {
+		margin-left: -153px;
+	}
 
 	.page__projects {
 		max-height: 1800px;
@@ -943,7 +947,7 @@ input:focus {
 
 @media(max-width: 535px) {
 	.header__title.active {
-		margin-left: -104px;
+		margin-left: -135px;
 	}
 	
 	.form_title {
@@ -1014,12 +1018,17 @@ input:focus {
 	}
 }
 
+@media(max-width: 414px) {
+	.header__title.active {
+		margin-left: -123px;
+	}
+}
 
 
 @media(max-width: 410px) {
 
 	.header__title.active {
-		margin-left: -97px;
+		margin-left: -119px;
 	}
 
 	.form_block {
