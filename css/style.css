@@ -959,6 +959,12 @@ input:focus {
 
 }
 
+@media(max-width: 540px) {
+	.header__title.active {
+		margin-left: -138px;
+	}
+}
+
 @media(max-width: 535px) {
 	.header__title.active {
 		margin-left: -135px;
