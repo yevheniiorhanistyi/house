@@ -100,12 +100,14 @@ p {
 .page__about {
 	height: 100%;
 	max-height: 200vh;
-	min-height: 1070px;
+	min-height: 710px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 	background-color: #000;
+
+	padding: 10px 5px; 
 }
 
 .page__projects {
@@ -202,9 +204,11 @@ p {
 
 
 .content__about {
+	height: 100%;
+
 	max-width: 440px;
 	margin-left: 40px;
-	padding: 5px 25px;
+	padding: 15px 25px;
 }
 
 .content__projects {
@@ -335,7 +339,7 @@ p {
 .foil {
 	width: 610px;
 	margin-left: -45px;
-	max-height: 120px;
+
 	display: flex;
 
 	align-items: center;
@@ -352,6 +356,7 @@ p {
 	color: #d8ad47;
 	font-size: 1.2rem;
 	margin-left: -18px;
+	padding: 10px 10px;
 }
 
 /*_____ projects ____*/
@@ -683,8 +688,9 @@ input:focus {
 	}
 
 	.foil {
-		width: 1037px;
-		padding: 0 30px;
+		width: 100%; 
+		max-width: 1118px;
+		padding: 10px 30px;
 	}
 
 	.house {
@@ -802,6 +808,11 @@ input:focus {
 
 @media(max-width: 722px) {
 
+	.page__intro {
+		height: 100%;
+		min-height: 500px;
+	}
+
 	.content__intro {
 		left: 1%;
 	}
@@ -823,6 +834,10 @@ input:focus {
 	.menu_link {
 		display: block;
 		margin: 0 0 10px 10px;
+	}
+
+	.line {
+		margin: 20px 0;
 	}
 	.project__boston {
 		max-width: 100%;
@@ -956,7 +971,7 @@ input:focus {
 	}
 
 	.page__contacts {
-		max-height: 840px;
+		max-height: 860px;
 	}
 
 	.content__title {
@@ -965,7 +980,7 @@ input:focus {
 
 	.content_contacts {
 		margin-left: 0;
-		max-height: 460px;
+		max-height: 500px;
 	}
 	.location {
 		display: block;
@@ -1010,6 +1025,10 @@ input:focus {
 
 
 @media(max-width: 462px) {
+
+	.line {
+		margin: 10px 0;
+	}
 	.content__title {
 		font-size: 1.2rem;
 	}
