@@ -846,6 +846,13 @@ input:focus {
 		max-width: 100%;
 		margin: 10px auto;
 	}
+	.page__contacts {
+		background: #000; 
+	}
+
+	.map {
+		opacity: .7;
+	}
 	.location {
 		max-width: 525px;
 	}
